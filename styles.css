@@ -29,9 +29,17 @@ body {
     background-size: contain;
 }
 
+.container__caixa {
+    margin: 0 6em;
+}
+
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
 }
 
 .container__botao {
@@ -41,6 +49,7 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
