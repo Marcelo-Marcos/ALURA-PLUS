@@ -127,3 +127,16 @@ body {
     list-style-type: none;
     margin: 5em 0;
 }
+
+.rodape {
+    text-align: center;
+}
+
+.lista__link{
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
