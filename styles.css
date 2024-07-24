@@ -130,13 +130,26 @@ body {
 
 .rodape {
     text-align: center;
+    margin: 0 6.5em 6.1875em 6.5em;
 }
 
-.lista__link{
+.rodape__lista {
     display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 2.5em;
+    gap: 1em;
+    font-family: var(--fonte-principal);
 }
 
 .link {
     text-decoration: none;
     color: var(--branco-principal);
+    font-size: 16px;
+}
+
+.rodape__texto {
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin-top: 1.5em;
 }
